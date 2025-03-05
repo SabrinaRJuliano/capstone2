@@ -1,0 +1,53 @@
+.welcome {
+    background-color: #0c6980;
+    display: flex;             
+    justify-content: center;    
+    align-items: center;      
+    width: 100%;           
+ }
+ 
+ .sabrina {
+    max-height: 250px;          
+    width: auto;                
+ }
+
+ .font-body {
+   font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+ }
+  
+ .font-header {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title {
+    letter-spacing: 5pt;
+  }
+
+.email {
+    display: flex;             
+    justify-content: center;    
+    align-items: center;  
+    padding-top: 20pt;
+}
+
+a[href] {
+    color: inherit;         
+    text-decoration: inherit;  
+    cursor: pointer;       
+    font-weight: inherit;   
+  }
+  
+  .font-body .portfolio {
+    font-weight: 700;
+    color: #F05A7E;
+}
+
+.font-body .resume {
+    font-weight: 700;
+    color: #FFBE98;
+}
